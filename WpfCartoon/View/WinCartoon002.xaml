@@ -1,0 +1,31 @@
+﻿<Window x:Class="WpfCartoon.View.WinCartoon002"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfCartoon.View"
+        mc:Ignorable="d"
+        Title="LoadWindow" Height="25" Width="450" 
+        AllowsTransparency="True" Background="Transparent"
+        WindowStartupLocation="CenterScreen" 
+        WindowStyle="None"
+        Loaded="Window_Loaded">
+    <Canvas x:Name="mainCanvas">
+        <StackPanel Name="loadingBar" Orientation="Vertical">
+            <Image HorizontalAlignment="Right" Height="20" Stretch="Fill">
+                <Image.Source>
+                    <BitmapImage UriSource="/Images/火箭.png" Rotation="Rotate90" />
+                </Image.Source>
+            </Image>
+            <Rectangle Width="{Binding ElementName=mainCanvas,Path=ActualWidth}" Height="5">
+                <Rectangle.Fill>
+                    <RadialGradientBrush RadiusX="1" RadiusY="1" GradientOrigin="0.9,0.5">
+                        <GradientStop Color="Red" Offset="0"></GradientStop>
+                        <GradientStop Color="Orange" Offset="0.2"></GradientStop>
+                        <GradientStop Color="Transparent" Offset="0.5"></GradientStop>
+                    </RadialGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+        </StackPanel>
+    </Canvas>
+</Window>
