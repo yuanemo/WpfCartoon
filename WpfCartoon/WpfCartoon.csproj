@@ -55,6 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Model\Particle.cs" />
+    <Compile Include="Model\ParticleSystem.cs" />
+    <Compile Include="Model\ParticleSystemManager.cs" />
     <Compile Include="UC\UCRingControl.xaml.cs">
       <DependentUpon>UCRingControl.xaml</DependentUpon>
     </Compile>
@@ -69,6 +72,9 @@
     </Compile>
     <Compile Include="View\WinCartoon003.xaml.cs">
       <DependentUpon>WinCartoon003.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\WinCarToon004.xaml.cs">
+      <DependentUpon>WinCarToon004.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -102,6 +108,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="View\WinCarToon004.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -130,7 +140,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Model\" />
     <Folder Include="ViewModel\" />
   </ItemGroup>
   <ItemGroup>

@@ -56,7 +56,8 @@ namespace WpfCartoon
 
         private void bth04_Click(object sender, RoutedEventArgs e)
         {
-
+            WinCarToon004 winCarToon004 = new WinCarToon004();
+            winCarToon004.Show();
         }
     }
 }
