@@ -53,5 +53,10 @@ namespace WpfCartoon
             WinCartoon003 winCartoon003 = new WinCartoon003();
             winCartoon003.Show();
         }
+
+        private void bth04_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
