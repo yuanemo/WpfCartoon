@@ -54,3 +54,13 @@ E:\02私人\动画练习\GitGet\WpfCartoon\WpfCartoon\obj\Debug\WpfCartoon.cspro
 E:\02私人\动画练习\GitGet\WpfCartoon\WpfCartoon\obj\Debug\WpfCartoon.csproj.CoreCompileInputs.cache
 E:\02私人\动画练习\GitGet\WpfCartoon\WpfCartoon\obj\Debug\WpfCartoon.exe
 E:\02私人\动画练习\GitGet\WpfCartoon\WpfCartoon\obj\Debug\WpfCartoon.pdb
+E:\02私人\动画练习\GitGet\WpfCartoon\WpfCartoon\obj\Debug\UC\UCImageButton.g.cs
+E:\02私人\动画练习\GitGet\WpfCartoon\WpfCartoon\obj\Debug\View\WinCartoon005.g.cs
+E:\02私人\动画练习\GitGet\WpfCartoon\WpfCartoon\obj\Debug\UC\UCImageButton.baml
+E:\02私人\动画练习\GitGet\WpfCartoon\WpfCartoon\obj\Debug\View\WinCartoon005.baml
+E:\02私人\动画练习\GitGet\WpfCartoon\WpfCartoon\obj\Debug\UC\UCImageBox.g.cs
+E:\02私人\动画练习\GitGet\WpfCartoon\WpfCartoon\obj\Debug\UC\UCImageCanvas.g.cs
+E:\02私人\动画练习\GitGet\WpfCartoon\WpfCartoon\obj\Debug\View\WinCartoon006.g.cs
+E:\02私人\动画练习\GitGet\WpfCartoon\WpfCartoon\obj\Debug\UC\UCImageBox.baml
+E:\02私人\动画练习\GitGet\WpfCartoon\WpfCartoon\obj\Debug\UC\UCImageCanvas.baml
+E:\02私人\动画练习\GitGet\WpfCartoon\WpfCartoon\obj\Debug\View\WinCartoon006.baml

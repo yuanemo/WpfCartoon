@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfCartoon.View.WinCartoon005"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfCartoon.View"
+        xmlns:uc ="clr-namespace:WpfCartoon.UC"
+        mc:Ignorable="d"
+         Background="Black" WindowStartupLocation="CenterScreen"
+        Title="WinCartoon005" Height="450" Width="800">
+    <UniformGrid Rows="2" Columns="3" Margin="50,20,50,50">
+        <uc:UCImageButton NormalImage="/Images/search.png" HoverImage="/Images/火箭.png" Margin="10"></uc:UCImageButton>
+        <!--<uc:UCImageButton NormalImage="/Images/letter.jpg" HoverImage="/Images/letter_hover.jpg" Margin="10"></uc:UCImageButton>
+        <uc:UCImageButton NormalImage="/Images/listen.jpeg" HoverImage="/Images/listen_hover.jpeg" Margin="10"></uc:UCImageButton>
+        <uc:UCImageButton NormalImage="/Images/speak.jpg" HoverImage="/Images/speak_hover.jpg" Margin="10"></uc:UCImageButton>
+        <uc:UCImageButton NormalImage="/Images/talk.jpg" HoverImage="/Images/talk_hover.jpg" Margin="10"></uc:UCImageButton>
+        <uc:UCImageButton NormalImage="/Images/write.jpg" HoverImage="/Images/write_hover.jpeg" Margin="10"></uc:UCImageButton>-->
+    </UniformGrid>
+</Window>
+

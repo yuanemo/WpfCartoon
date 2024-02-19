@@ -58,11 +58,23 @@
     <Compile Include="Model\Particle.cs" />
     <Compile Include="Model\ParticleSystem.cs" />
     <Compile Include="Model\ParticleSystemManager.cs" />
+    <Compile Include="UC\UCImageBox.xaml.cs">
+      <DependentUpon>UCImageBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UCImageButton.xaml.cs">
+      <DependentUpon>UCImageButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UCImageCanvas.xaml.cs">
+      <DependentUpon>UCImageCanvas.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UC\UCRingControl.xaml.cs">
       <DependentUpon>UCRingControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="UC\UCSearchTextBox.xaml.cs">
       <DependentUpon>UCSearchTextBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\WinCartoon005.xaml.cs">
+      <DependentUpon>WinCartoon005.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\WinCartoon001.xaml.cs">
       <DependentUpon>WinCartoon001.xaml</DependentUpon>
@@ -76,6 +88,9 @@
     <Compile Include="View\WinCarToon004.xaml.cs">
       <DependentUpon>WinCarToon004.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\WinCartoon006.xaml.cs">
+      <DependentUpon>WinCartoon006.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -88,11 +103,27 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="UC\UCImageBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UC\UCImageButton.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UC\UCImageCanvas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="UC\UCRingControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UC\UCSearchTextBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\WinCartoon005.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -109,6 +140,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\WinCarToon004.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\WinCartoon006.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -147,6 +182,21 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\火箭.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\img1.png" />
+    <Resource Include="Images\img10.png" />
+    <Resource Include="Images\img11.png" />
+    <Resource Include="Images\img12.png" />
+    <Resource Include="Images\img13.png" />
+    <Resource Include="Images\img2.png" />
+    <Resource Include="Images\img3.png" />
+    <Resource Include="Images\img4.png" />
+    <Resource Include="Images\img5.png" />
+    <Resource Include="Images\img6.png" />
+    <Resource Include="Images\img7.png" />
+    <Resource Include="Images\img8.png" />
+    <Resource Include="Images\img9.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

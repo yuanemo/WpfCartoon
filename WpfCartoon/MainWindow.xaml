@@ -18,6 +18,8 @@
             <Button Name="bth02" Click="bth02_Click">02 Load条循环滚动</Button>
             <Button Name="bth03" Click="bth03_Click">03 搜索框折叠-水印</Button>
             <Button Name="bth04" Click="bth04_Click">04 两种粒子背景动画效果</Button>
+            <Button Name="bth05" Click="bth05_Click">05 图片翻转效果</Button>
+            <Button Name="bth06" Click="bth06_Click">06 图片环形旋转效果</Button>
         </WrapPanel>
     </Grid>
 </Window>

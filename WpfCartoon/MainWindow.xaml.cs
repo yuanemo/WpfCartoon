@@ -59,5 +59,22 @@ namespace WpfCartoon
             WinCarToon004 winCarToon004 = new WinCarToon004();
             winCarToon004.Show();
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void bth05_Click(object sender, RoutedEventArgs e)
+        {
+            WinCartoon005 winCartoon005 = new WinCartoon005();
+            winCartoon005.Show();
+        }
+
+        private void bth06_Click(object sender, RoutedEventArgs e)
+        {
+            WinCartoon006 winCartoon006 = new WinCartoon006();
+            winCartoon006.Show();
+        }
     }
 }
