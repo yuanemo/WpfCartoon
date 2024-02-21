@@ -64,3 +64,9 @@ E:\02私人\动画练习\GitGet\WpfCartoon\WpfCartoon\obj\Debug\View\WinCartoon0
 E:\02私人\动画练习\GitGet\WpfCartoon\WpfCartoon\obj\Debug\UC\UCImageBox.baml
 E:\02私人\动画练习\GitGet\WpfCartoon\WpfCartoon\obj\Debug\UC\UCImageCanvas.baml
 E:\02私人\动画练习\GitGet\WpfCartoon\WpfCartoon\obj\Debug\View\WinCartoon006.baml
+E:\02私人\动画练习\GitGet\WpfCartoon\WpfCartoon\obj\Debug\View\WinCartoon007.g.cs
+E:\02私人\动画练习\GitGet\WpfCartoon\WpfCartoon\obj\Debug\View\WinCartoon007.baml
+E:\02私人\动画练习\GitGet\WpfCartoon\WpfCartoon\obj\Debug\UC\UCImageBox008.g.cs
+E:\02私人\动画练习\GitGet\WpfCartoon\WpfCartoon\obj\Debug\UC\UCImageBox008.baml
+E:\02私人\动画练习\GitGet\WpfCartoon\WpfCartoon\obj\Debug\View\WinCartoon008.g.cs
+E:\02私人\动画练习\GitGet\WpfCartoon\WpfCartoon\obj\Debug\View\WinCartoon008.baml

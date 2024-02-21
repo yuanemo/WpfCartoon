@@ -20,6 +20,8 @@
             <Button Name="bth04" Click="bth04_Click">04 两种粒子背景动画效果</Button>
             <Button Name="bth05" Click="bth05_Click">05 图片翻转效果</Button>
             <Button Name="bth06" Click="bth06_Click">06 图片环形旋转效果</Button>
+            <Button Name="bth07" Click="bth07_Click">07 聚光灯照亮文字效果</Button>
+            <Button Name="bth08" Click="bth08_Click">08 聚光灯查看内容特效</Button>
         </WrapPanel>
     </Grid>
 </Window>

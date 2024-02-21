@@ -76,5 +76,21 @@ namespace WpfCartoon
             WinCartoon006 winCartoon006 = new WinCartoon006();
             winCartoon006.Show();
         }
+
+        private void bth07_Click(object sender, RoutedEventArgs e)
+        {
+            WinCartoon007 winCartoon007 = new WinCartoon007();
+            winCartoon007.Show();
+        }
+
+        private void bth08_Click(object sender, RoutedEventArgs e)
+        {
+            ///思路:该效果用到了鼠标跟随获取坐标位置，
+            ///根据位置信息设置展示图像的Clip属性EllipseGeometry；
+            ///同时在进入进出时添加放大缩小动作。
+            ///
+            WinCartoon008 winCartoon008 = new WinCartoon008();
+            winCartoon008.Show();
+        }
     }
 }
