@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfCartoon.View.WinCartoon017"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfCartoon.View"
+        xmlns:uc="clr-namespace:WpfCartoon.UC"
+        mc:Ignorable="d"
+        Title="WinCartoon017" Height="450" Width="1000">
+    <UniformGrid Rows="1" Columns="4">
+        <uc:UCKmImageControl Width="250" Height="300" Text="Z" Direction="Right" Background="#7bbfea" TextColor="#7bbfea"></uc:UCKmImageControl>
+        <uc:UCKmImageControl Width="250" Height="300" Text="D" Direction="Left" Background="#33a3dc" TextColor="#33a3dc"></uc:UCKmImageControl>
+        <uc:UCKmImageControl Width="250" Height="300" Text="A" Direction="Bottom" Background="#228fbd" TextColor="#228fbd"></uc:UCKmImageControl>
+        <uc:UCKmImageControl Width="250" Height="300" Text="S" Direction="Top" Background="#2468a2" TextColor="#2468a2"></uc:UCKmImageControl>
+    </UniformGrid>
+</Window>

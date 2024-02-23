@@ -70,9 +70,26 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Model\ExpanderClass.cs" />
+    <Compile Include="Model\Particle018.cs" />
     <Compile Include="Model\Particle.cs" />
+    <Compile Include="Model\Particle013.cs" />
     <Compile Include="Model\ParticleSystem.cs" />
+    <Compile Include="Model\ParticleSystem013.cs" />
+    <Compile Include="Model\ParticleSystem018.cs" />
     <Compile Include="Model\ParticleSystemManager.cs" />
+    <Compile Include="UC\UCCardControl.xaml.cs">
+      <DependentUpon>UCCardControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UCCardControlBack.xaml.cs">
+      <DependentUpon>UCCardControlBack.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UCCardControlButtom.xaml.cs">
+      <DependentUpon>UCCardControlButtom.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UCCardControlFront.xaml.cs">
+      <DependentUpon>UCCardControlFront.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UC\UCImageBox.xaml.cs">
       <DependentUpon>UCImageBox.xaml</DependentUpon>
     </Compile>
@@ -85,12 +102,28 @@
     <Compile Include="UC\UCImageCanvas.xaml.cs">
       <DependentUpon>UCImageCanvas.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UC\UCKmImageControl.xaml.cs">
+      <DependentUpon>UCKmImageControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UCLoadingWater.xaml.cs">
+      <DependentUpon>UCLoadingWater.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UC\UCRingControl.xaml.cs">
       <DependentUpon>UCRingControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UCRollControl.xaml.cs">
+      <DependentUpon>UCRollControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UCRollControl016.xaml.cs">
+      <DependentUpon>UCRollControl016.xaml</DependentUpon>
     </Compile>
     <Compile Include="UC\UCSearchTextBox.xaml.cs">
       <DependentUpon>UCSearchTextBox.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UC\UCSfqIamgeControl.xaml.cs">
+      <DependentUpon>UCSfqIamgeControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Util\GetChildObjs.cs" />
     <Compile Include="View\WinCartoon005.xaml.cs">
       <DependentUpon>WinCartoon005.xaml</DependentUpon>
     </Compile>
@@ -115,6 +148,36 @@
     <Compile Include="View\WinCartoon008.xaml.cs">
       <DependentUpon>WinCartoon008.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\WinCartoon009.xaml.cs">
+      <DependentUpon>WinCartoon009.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\WinCartoon010.xaml.cs">
+      <DependentUpon>WinCartoon010.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\WinCartoon011.xaml.cs">
+      <DependentUpon>WinCartoon011.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\WinCartoon012.xaml.cs">
+      <DependentUpon>WinCartoon012.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\WinCartoon013.xaml.cs">
+      <DependentUpon>WinCartoon013.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\WinCartoon014.xaml.cs">
+      <DependentUpon>WinCartoon014.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\WinCartoon015.xaml.cs">
+      <DependentUpon>WinCartoon015.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\WinCartoon016.xaml.cs">
+      <DependentUpon>WinCartoon016.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\WinCartoon017.xaml.cs">
+      <DependentUpon>WinCartoon017.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\WinCartoon018.xaml.cs">
+      <DependentUpon>WinCartoon018.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -127,6 +190,26 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Style\Style.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UC\UCCardControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UC\UCCardControlBack.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UC\UCCardControlButtom.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UC\UCCardControlFront.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="UC\UCImageBox.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -143,11 +226,31 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="UC\UCKmImageControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UC\UCLoadingWater.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="UC\UCRingControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="UC\UCRollControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UC\UCRollControl016.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="UC\UCSearchTextBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UC\UCSfqIamgeControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -180,6 +283,46 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\WinCartoon008.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\WinCartoon009.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\WinCartoon010.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\WinCartoon011.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\WinCartoon012.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\WinCartoon013.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\WinCartoon014.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\WinCartoon015.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\WinCartoon016.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\WinCartoon017.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\WinCartoon018.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -92,5 +92,78 @@ namespace WpfCartoon
             WinCartoon008 winCartoon008 = new WinCartoon008();
             winCartoon008.Show();
         }
+
+        private void bth09_Click(object sender, RoutedEventArgs e)
+        {
+            WinCartoon009  winCartoon009 = new WinCartoon009();
+            winCartoon009.Show();
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void bth10_Click(object sender, RoutedEventArgs e)
+        {
+            ///思路：使用自定义控件，
+            ///设置一个背板 MyCardControlBottom，
+            ///一个卡牌翻动的前部 MyCardControlFront，
+            ///一个卡牌翻动后的背部 MyCardControlBack，
+            ///另外实现卡牌翻动的MyCardControl；
+            ///在主窗体中设置一计时器，根据卡牌上的数字和计时器时间启动翻牌动作。
+            ///
+
+            WinCartoon010 winCartoon010 = new WinCartoon010();
+            winCartoon010.Show();
+        }
+
+        private void bth11_Click(object sender, RoutedEventArgs e)
+        {
+            WinCartoon011 winCartoon011 = new WinCartoon011();
+            winCartoon011.Show();
+        }
+
+        private void bth12_Click(object sender, RoutedEventArgs e)
+        {
+            WinCartoon012 winCartoon012 = new WinCartoon012();
+            winCartoon012.Show();
+        }
+
+        private void bth13_Click(object sender, RoutedEventArgs e)
+        {
+            WinCartoon013 winCartoon013 = new WinCartoon013();
+            winCartoon013.Show();
+        }
+
+        private void bth14_Click(object sender, RoutedEventArgs e)
+        {
+            WinCartoon014  winCartoon014 = new WinCartoon014();
+            winCartoon014.Show();
+        }
+
+        private void bth15_Click(object sender, RoutedEventArgs e)
+        {
+            WinCartoon015 winCartoon015 = new WinCartoon015();
+            winCartoon015.Show();
+        }
+
+        private void bth16_Click(object sender, RoutedEventArgs e)
+        {
+            WinCartoon016 winCartoon016 = new WinCartoon016();
+            winCartoon016.Show();
+        }
+
+        private void bth17_Click(object sender, RoutedEventArgs e)
+        {
+            WinCartoon017 winCartoon017 = new WinCartoon017();
+            winCartoon017.Show();
+        }
+
+        private void bth18_Click(object sender, RoutedEventArgs e)
+        {
+            WinCartoon018  winCartoon018 = new WinCartoon018();
+            winCartoon018.Show();
+        }
     }
 }

@@ -22,6 +22,16 @@
             <Button Name="bth06" Click="bth06_Click">06 图片环形旋转效果</Button>
             <Button Name="bth07" Click="bth07_Click">07 聚光灯照亮文字效果</Button>
             <Button Name="bth08" Click="bth08_Click">08 聚光灯查看内容特效</Button>
+            <Button Name="bth09" Click="bth09_Click">09 文字水波纹效果</Button>
+            <Button x:Name="bth10" Click="bth10_Click" Content="10 3D翻牌倒计时"/>
+            <Button x:Name="bth11" Click="bth11_Click" Content="11 图片手风琴切换"/>
+            <Button x:Name="bth12" Click="bth12_Click" >12 霓虹文字动画</Button>
+            <Button x:Name="bth13" Click="bth13_Click" >13 3D粒子波浪</Button>
+            <Button x:Name="bth14" Click="bth14_Click" >14 鼠标悬停视觉差</Button>
+            <Button x:Name="bth15" Click="bth15_Click" >15 手风琴轮播效果切换</Button>
+            <Button x:Name="bth16" Click="bth16_Click" >16 带视差的3D图片翻转特效</Button>
+            <Button x:Name="bth17" Click="bth17_Click" >17 字体仿开门3D效果</Button>
+            <Button x:Name="bth18" Click="bth18_Click" >18 鼠标位置粒子移动</Button>
         </WrapPanel>
     </Grid>
 </Window>
