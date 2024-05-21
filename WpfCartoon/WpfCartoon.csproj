@@ -74,9 +74,11 @@
     <Compile Include="Model\Particle018.cs" />
     <Compile Include="Model\Particle.cs" />
     <Compile Include="Model\Particle013.cs" />
+    <Compile Include="Model\Particle019.cs" />
     <Compile Include="Model\ParticleSystem.cs" />
     <Compile Include="Model\ParticleSystem013.cs" />
     <Compile Include="Model\ParticleSystem018.cs" />
+    <Compile Include="Model\ParticleSystem019.cs" />
     <Compile Include="Model\ParticleSystemManager.cs" />
     <Compile Include="UC\UCCardControl.xaml.cs">
       <DependentUpon>UCCardControl.xaml</DependentUpon>
@@ -101,6 +103,9 @@
     </Compile>
     <Compile Include="UC\UCImageCanvas.xaml.cs">
       <DependentUpon>UCImageCanvas.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UCImageTitle.xaml.cs">
+      <DependentUpon>UCImageTitle.xaml</DependentUpon>
     </Compile>
     <Compile Include="UC\UCKmImageControl.xaml.cs">
       <DependentUpon>UCKmImageControl.xaml</DependentUpon>
@@ -178,6 +183,18 @@
     <Compile Include="View\WinCartoon018.xaml.cs">
       <DependentUpon>WinCartoon018.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\WinCartoon019.xaml.cs">
+      <DependentUpon>WinCartoon019.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\WinCartoon020.xaml.cs">
+      <DependentUpon>WinCartoon020.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\WinCartoon021.xaml.cs">
+      <DependentUpon>WinCartoon021.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\WinCartoon022.xaml.cs">
+      <DependentUpon>WinCartoon022.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -223,6 +240,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UC\UCImageCanvas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UC\UCImageTitle.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -323,6 +344,22 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\WinCartoon018.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\WinCartoon019.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\WinCartoon020.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\WinCartoon021.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\WinCartoon022.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

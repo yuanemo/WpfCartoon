@@ -8,22 +8,23 @@ using WpfCartoon.Model;
 namespace WpfCartoon.View
 {
     /// <summary>
-    /// WinCartoon018.xaml 的交互逻辑
+    /// WinCartoon019.xaml 的交互逻辑
     /// </summary>
-    public partial class WinCartoon018 : Window
+    public partial class WinCartoon019 : Window
     {
-        public WinCartoon018()
+        public WinCartoon019()
         {
             InitializeComponent();
             this.Loaded += MainWindow_Loaded;
         }
 
-        private ParticleSystem018 ps;
+
+        private ParticleSystem019 ps;
         private Point pMouse = new Point(9999, 9999);
 
         private void MainWindow_Loaded(object sender, RoutedEventArgs e)
         {
-            ps = new ParticleSystem018(15, 100, 10, 100, 150, this.cvs_particleContainer, this.grid_lineContainer);
+            ps = new ParticleSystem019(15, 100, 10, 100, 150, this.cvs_particleContainer, this.grid_lineContainer);
             //注册帧动画
             CompositionTarget.Rendering += CompositionTarget_Rendering;
         }
