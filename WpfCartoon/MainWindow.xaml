@@ -36,6 +36,11 @@
             <Button x:Name="bth20" Click="bth20_Click" >20 鼠标拖动旋转3D发光立方体效果</Button>
             <Button x:Name="bth21" Click="bth21_Click" >21 鼠标划过图片动态展示信息效果</Button>
             <Button x:Name="bth22" Click="bth22_Click" >22 背景灯光随鼠标闪动效果</Button>
+            <Button x:Name="bth23" Click="bth23_Click" >23 半圆形导航菜单</Button>
+            <Button x:Name="bth24" Click="bth24_Click" >24 文字粒子闪烁动画</Button>
+            <Button x:Name="bth25" Click="bth25_Click" >25 3D文字翻转特效</Button>
+            <Button x:Name="bth26" Click="bth26_Click" >26 3D文字折叠特效</Button>
+            <Button x:Name="bth27" Click="bth27_Click" >27 3D文字轮播特效</Button>
         </WrapPanel>
     </Grid>
 </Window>

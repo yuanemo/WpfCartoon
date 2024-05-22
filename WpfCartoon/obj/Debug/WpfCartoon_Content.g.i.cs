@@ -9,17 +9,5 @@
 //------------------------------------------------------------------------------
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/img1.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/img10.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/img11.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/img12.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/img13.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/img2.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/img3.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/img4.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/img5.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/img6.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/img7.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/img8.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/img9.png")]
 
 

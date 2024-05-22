@@ -189,5 +189,31 @@ namespace WpfCartoon
             WinCartoon022 winCartoon022 = new WinCartoon022();
             winCartoon022.Show();
         }
+
+        private void bth23_Click(object sender, RoutedEventArgs e)
+        {
+            WinCartoon023 winCartoon023 = new WinCartoon023();
+            winCartoon023.Show();
+        }
+
+        private void bth24_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void bth25_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void bth26_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void bth27_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

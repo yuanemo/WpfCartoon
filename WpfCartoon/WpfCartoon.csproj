@@ -92,6 +92,9 @@
     <Compile Include="UC\UCCardControlFront.xaml.cs">
       <DependentUpon>UCCardControlFront.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UC\UCCircularSector.xaml.cs">
+      <DependentUpon>UCCircularSector.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UC\UCImageBox.xaml.cs">
       <DependentUpon>UCImageBox.xaml</DependentUpon>
     </Compile>
@@ -121,6 +124,9 @@
     </Compile>
     <Compile Include="UC\UCRollControl016.xaml.cs">
       <DependentUpon>UCRollControl016.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UCRoundMenu.xaml.cs">
+      <DependentUpon>UCRoundMenu.xaml</DependentUpon>
     </Compile>
     <Compile Include="UC\UCSearchTextBox.xaml.cs">
       <DependentUpon>UCSearchTextBox.xaml</DependentUpon>
@@ -195,6 +201,9 @@
     <Compile Include="View\WinCartoon022.xaml.cs">
       <DependentUpon>WinCartoon022.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\WinCartoon023.xaml.cs">
+      <DependentUpon>WinCartoon023.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -224,6 +233,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UC\UCCardControlFront.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UC\UCCircularSector.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -264,6 +277,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UC\UCRollControl016.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UC\UCRoundMenu.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -360,6 +377,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\WinCartoon022.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\WinCartoon023.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -119,3 +119,9 @@ E:\02私人\动画练习\GitGet\WpfCartoon\WpfCartoon\obj\Debug\UC\UCImageTitle.
 E:\02私人\动画练习\GitGet\WpfCartoon\WpfCartoon\obj\Debug\View\WinCartoon021.baml
 E:\02私人\动画练习\GitGet\WpfCartoon\WpfCartoon\obj\Debug\View\WinCartoon022.g.cs
 E:\02私人\动画练习\GitGet\WpfCartoon\WpfCartoon\obj\Debug\View\WinCartoon022.baml
+E:\02私人\动画练习\GitGet\WpfCartoon\WpfCartoon\obj\Debug\UC\UCCircularSector.g.cs
+E:\02私人\动画练习\GitGet\WpfCartoon\WpfCartoon\obj\Debug\UC\UCRoundMenu.g.cs
+E:\02私人\动画练习\GitGet\WpfCartoon\WpfCartoon\obj\Debug\UC\UCCircularSector.baml
+E:\02私人\动画练习\GitGet\WpfCartoon\WpfCartoon\obj\Debug\UC\UCRoundMenu.baml
+E:\02私人\动画练习\GitGet\WpfCartoon\WpfCartoon\obj\Debug\View\WinCartoon023.g.cs
+E:\02私人\动画练习\GitGet\WpfCartoon\WpfCartoon\obj\Debug\View\WinCartoon023.baml
